@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight:300;
+    margin:0
+   
+}
+.container{
+    width:570px;
+    margin: 0 auto;
+    
+    
+}
+/* Typography */ 
+
+h1{
+    font-size: 60px;
+    font-weight: 300;
+    margin-top:0
+}
+h2{
+    font-size: 42px;
+    font-weight: 300;
+    margin-top:0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding:30px 0px;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.for-small{
+    font-size:16px;
+    margin:0
+    
+}
+p {
+    margin-bottom: 0;
+}
+
+h1 span,
+h2 span{
+    font-weight: 900;
+    display:block;
+    color: #99d930;
+    
+}
+
+h1 span{
+    font-size: 80px;
+   
+}
+h2 span{
+    font-size: 60px;
+
+}
+
+
+    
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+/* sections */
+header,.section-one, .section-two{
+    padding: 100px 0;
+}
+header{
+    background:#252525;
+    color: #fff
+}
+
+.section-one{
+    background: #fff;
+    color:#252525
+}
+.section-two{
+    background:#252525;
+    color: #fff
+}
+
+.btn{
+    background: #99d930;
+    color:#252525;
+    display: inline-block;
+    padding:10px 25px;
+    text-decoration: none;
+    margin-top:25px;
+    
+    
+}
+.btn:hover{
+    background:#252525;
+    color: #fff ;
+}
+
+.section-two .btn:hover {
+    background:#fff;
+    color: #252525;
+ }

@@ -1,0 +1,27 @@
+#qr{
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    
+}
+
+#logo{
+    border-radius: 120px;
+    width: 300px;
+    height: 200x;
+}
+
+body{
+    background: #f8f4ef;
+    display: flex;
+    
+}
+
+.General {
+    border: 1px dotted black;
+    width: 300px;
+}
+.main{
+   
+}

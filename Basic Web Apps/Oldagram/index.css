@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    
+}
+/* sections */
+.container{
+    width: 375px;
+    height: 545px;
+    margin:0 auto;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 375px;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+    
+}
+.like-btn{
+    background-image: url(images/icon-heart.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border:none;
+    background-color: transparent;
+}
+
+.comment-btn{
+    background-image: url(images/icon-comment.png);
+    width: 20px;
+    height: 20px;
+    background-size:cover;
+    border:none;
+    background-color: transparent;
+}
+
+.share-btn{
+    background-image: url(images/icon-dm.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border:none;
+    background-color: transparent;
+}
+
+.picture{
+    width: 375px;
+    height: 375px;
+    background-image: url(images/post-vangogh.jpg);
+    background-size: cover;
+
+
+}
+
+.site-logo{
+    width: 127px;
+    height:33.02px;
+    background-image: url(images/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background-image: url(images/crypto-punk.jpg);
+    background-size: cover;
+}
+.profile-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background-image: url(images/avatar-vangogh.jpg);
+    background-size: cover;
+}
+
+.profile-title{
+    display:flex;
+    
+}
+
+.name-loc{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Typography */
+
+a{
+
+font-family: "Source Sans 3", sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+p{
+    font-family: "Source Sans 3", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}

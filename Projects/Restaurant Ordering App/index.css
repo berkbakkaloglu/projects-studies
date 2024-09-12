@@ -1,0 +1,184 @@
+body{
+    width: 600px;
+    height: 1161px;
+    margin:auto;
+    padding:0;
+}
+
+header{
+    width: 600px;
+    height: 167px;
+    background-image: url(images/header.png);
+    background-size: cover;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 508px;
+    height: 140;
+    align-items: center;
+}
+.list-left{
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+.food-logo{
+    
+    width: 70px;
+    height: 89px;
+    gap: 0px;
+    opacity: 0.72px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 98.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-size: 78.72px;
+
+}
+.increment{
+    width: 50px;
+    height: 50px;
+    width: 50px;
+    gap: 0px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 25px;
+}
+
+
+.list{
+    border-bottom: 1px solid #D2D2D2;
+}
+.single-order , .order-total{
+    display: flex;
+    justify-content: space-between;
+}
+.orders{
+
+    /* normal display flex */
+    display: none;
+    flex-direction: column;
+    align-self: center;
+    width: 508px;
+    height: 319px;
+    text-align: center;
+    margin: 46px auto;
+    align-items: center;
+    font-family: "Smythe", system-ui;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+.order-total{
+    border-top: 2px solid #393333;
+    margin-top: 31px;
+}
+.orders button {
+    width: 508px;
+    height: 60px;
+    border-radius: 3px;
+    background-color:#16DB99;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+    margin-top:53px;
+    
+
+}
+
+.hidden{
+    display:flex
+}
+.modal{
+    
+    /* normal display block */
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 524px;
+    height: 542.24px;
+    gap: 0px;
+    border-radius: 3.89px 0px 0px 0px;
+    border: 1.3px 0px 0px 0px;
+    opacity: 0px;
+    border: 1.3px solid #757575;
+    box-shadow: 5.19px 5.19px 255.44px 0px #00000080;
+    background-color: #FFFFFF;
+}
+.modal h2 {
+    display: block;
+    margin: 47px auto 35px auto;
+    text-align: center;
+}
+.modal button {
+    display: block;
+    margin: auto;
+    width: 475.91px;
+    height: 71.3px;
+    gap: 0px;
+    border-radius: 3.89px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.12px;
+    background-color:#16DB99;
+    color:#FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+
+    
+
+
+
+}
+input{
+    display: block;
+    width: 475.91px;
+    height: 71.3px;
+    border-radius: 3.89px 0px 0px 0px;
+    border: 1.3px 0px 0px 0px;
+    opacity: 0px;
+    color: #757575;
+    border: 1.3px solid #757575;
+    margin : 11.5px auto;
+
+}
+
+.payment-form{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.12px;
+}
+
+/* Typography */
+
+
+h3{
+    font-family: "Smythe", system-ui;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #000000;
+}
+.increment-text{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: center;
+
+}

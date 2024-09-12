@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+               
+            </div>
+        </header>
+        <main>
+            <div class="food-list" id="food-list">
+                <ul class="total-list" id="total-list">
+                    
+                   
+                </ul>
+            </div>
+            <div class="orders" id="orders">
+                <h3>Your Order</h3>
+                <div class="order-list" id="order-list">
+                    <div class="changing-order" id="changing-order"></div>
+                   
+                    <div class="order-total" id="single-order">
+                        <p>Total Price:</p>
+                        <div id="total"></div>
+                    </div>
+                    <button>Complete Order</button>
+                </div>
+            </div>
+        </main>
+        <div class="modal" id="modal" >
+            <h2>Enter card details</h2>
+            <form class="payment-form" id="payment-form">
+                <input
+                type="text"
+                style="text-indent:26.53px"
+                name="fullName"
+                placeholder="Enter your full name"
+                aria-label="Full name"
+                required>
+                <input
+                type="tel"
+                style="text-indent:26.53px"
+                name="ccn"
+                placeholder="Enter your credit card number"
+                aria-label="Credit Card number"
+                inputmode="numeric"
+                pattern="[0-9\s]{13,19}"
+                autocomplete="cc-number"
+                maxlength="19"
+                required>
+                <input
+                type="number"
+                class="input-text"
+                style="text-indent:26.53px"
+                name="cvv"
+                placeholder="Enter CVV"
+                aria-label="Enter CVV"
+                inputmode="numeric"
+                maxlength="3"
+                required>
+                <button>Pay</button>
+            </form>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

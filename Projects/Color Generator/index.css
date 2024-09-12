@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}
+
+#main {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 250px;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+.container {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 0 auto;
+
+}
+
+.select-color {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 6.1rem;
+    margin-top: 5rem;
+}
+
+.select-color input {
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    
+}
+
+.select-color select {
+    flex: 1;
+    max-width: 300px;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+}
+
+.select-color button {
+    padding: 1rem .5rem;
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-left: .5rem;
+    border: 1px solid whitesmoke;
+    border-radius: .5rem;
+}
+
+.select-color button:hover {
+    background-color: red;
+    color:black;
+}
+
+.colors {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 2px;
+    margin-left: -7rem;
+    margin-top: .5rem;
+}
+
+.color-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.color {
+    width: 100%;
+    flex-grow: 1;
+    margin-left: 6.5rem;
+}
+
+.color-name {
+    margin-left: 5rem;
+    padding: 5px;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    #main {
+        width: 450px;
+    }
+    .container {
+        width: 350px;
+        margin-left: -3rem;
+    }
+    .select-color button {
+        padding: .5rem .5rem;
+
+    }
+    .color-grid {
+        width: 100px;
+        margin: 0;
+    }
+    .color {
+        margin-right: -12.5rem;
+    }
+    .color-name {
+        margin-right: -12.2rem;
+    }
+}

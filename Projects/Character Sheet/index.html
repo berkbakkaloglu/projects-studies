@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRP Karakter Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Karakter Sheet</h1>
+        <form id="character-form">
+            <label for="name">Karakter İsmi:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="class">Sınıf:</label>
+            <select id="class" name="class">
+                <option value="fighter">Fighter</option>
+                <option value="ranger">Ranger</option>
+                <option value="wizard">Wizard</option>
+                <option value="cleric">Cleric</option>
+                <option value="monk">Monk</option>
+                <option value="bard">Bard</option>
+                <option value="druid">Druid</option>
+                <option value="rogue">Rogue</option>
+                <option value="paladin">Paladin</option>
+                <option value="barbarian">Barbarian</option>
+            </select>
+            
+            <label for="race">Irk:</label>
+            <select id="race" name="race">
+                <option value="human">İnsan</option>
+                <option value="elf">Elf</option>
+                <option value="dwarf">Cüce</option>
+                <option value="gnome">Gnome</option>
+                <option value="halfling">Buçukluk</option>
+            </select>
+
+            <label for="photo">Fotoğraf:</label>
+            <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
+            
+            <div class="stat">
+                <label for="strength">Güç:</label>
+                <button type="button" class="decrement" data-stat="strength">-</button>
+                <input type="number" id="strength" name="strength" value="0" readonly>
+                <button type="button" class="increment" data-stat="strength">+</button>
+            </div>
+            
+            <div class="stat">
+                <label for="dexterity">Çeviklik:</label>
+                <button type="button" class="decrement" data-stat="dexterity">-</button>
+                <input type="number" id="dexterity" name="dexterity" value="0" readonly>
+                <button type="button" class="increment" data-stat="dexterity">+</button>
+            </div>
+            
+            <div class="stat">
+                <label for="constitution">Dayanıklılık:</label>
+                <button type="button" class="decrement" data-stat="constitution">-</button>
+                <input type="number" id="constitution" name="constitution" value="0" readonly>
+                <button type="button" class="increment" data-stat="constitution">+</button>
+            </div>
+            
+            <div class="stat">
+                <label for="intelligence">Zeka:</label>
+                <button type="button" class="decrement" data-stat="intelligence">-</button>
+                <input type="number" id="intelligence" name="intelligence" value="0" readonly>
+                <button type="button" class="increment" data-stat="intelligence">+</button>
+            </div>
+            
+            <div class="stat">
+                <label for="wisdom">Bilgelik:</label>
+                <button type="button" class="decrement" data-stat="wisdom">-</button>
+                <input type="number" id="wisdom" name="wisdom" value="0" readonly>
+                <button type="button" class="increment" data-stat="wisdom">+</button>
+            </div>
+            
+            <div class="stat">
+                <label for="charisma">Karizma:</label>
+                <button type="button" class="decrement" data-stat="charisma">-</button>
+                <input type="number" id="charisma" name="charisma" value="0" readonly>
+                <button type="button" class="increment" data-stat="charisma">+</button>
+            </div>
+            
+            <button type="submit">Kaydet</button>
+        </form>
+        <button onclick="window.location.href='character-list.html'">Karakter Listesi</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

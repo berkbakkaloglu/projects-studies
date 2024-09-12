@@ -1,0 +1,45 @@
+body{
+    
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+        ". . . . . ."
+        ". header header header header ."
+        ". main main main main ."
+        ". . . . . ."
+        ". . . . . ."
+    ;
+    align-items: center;
+    text-align: center;
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  
+    background: linear-gradient(to bottom, #434343, #000000); 
+    color : #fff;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:burlywood;
+    border: 1px solid rgba(253, 253, 253, 0.349);
+    cursor: pointer;
+}
+
+.fun{
+    background: #fc4a1a;  
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a); 
+    background: linear-gradient(to left, #f7b733, #fc4a1a); 
+    color:#000000
+}

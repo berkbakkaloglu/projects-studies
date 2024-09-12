@@ -1,0 +1,170 @@
+body{
+    background: #1B244A;
+  
+    
+    
+    
+}
+.newbody{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    border:5px solid black
+}
+.maintext{
+    
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 149px;
+    margin: 0px 106px 21px 85px;
+}
+
+.scoresection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#080001;
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    background-image: url(images/home-score.png);
+    border-radius: 5px;
+    color: #F94F6D;
+    
+}
+#home{
+    margin: 68px 106px 10.5px 85px;
+    
+}
+#guest{
+    margin: 68px 86px 10.5px 106px;
+}
+#scoresectionhm{
+    margin: 10.5px 100px 26px 82px;
+    
+}
+#scoresectiongst{
+    margin: 10.5px 83px 26px 100px;
+}
+button{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 2px;
+    margin:0;
+    
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:26px;
+
+    
+}
+.bigbtn{
+    width: 150px;
+    height: 45px;
+    font-family: Verdana;
+
+}
+.bigbtnsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+button:hover{
+    background:#EEEEEE;
+    color:#080001
+}
+#hmbtn{
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex;
+    
+    
+
+}
+#gstbtn{
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex
+}
+#homescore,
+#guestscore {
+    display:flex;
+    justify-content: center;
+    width: 117px;
+    height: 120px;
+    flex-shrink: 0;
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    padding: 15px 20px 0px 18px;
+    margin: 21px 20px 26px 18px;
+  }
+
+#onehm {
+    margin: 26px 4.5px 69px 82px;
+}
+
+#twohm {
+    margin: 26px 5.5px 69px 4.5px;
+}
+
+#thrhm {
+    margin: 26px 100px 69px 5.5px;
+}
+
+#onegst {
+    margin: 26px 4.5px 69px 100px;
+}
+
+#twogst {
+    margin: 26px 5.5px 69px 4.5px;
+}
+
+#thrgst {
+    margin: 26px 83px 69px 5.5px;
+}
+
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 175px 20px 110px;
+   
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="main">
+            <div class="header">
+                <div>
+                    <h1 id="generate">Generate a<br> <span id="random"> random password </span></h1>
+                </div>
+            </div>
+            <div>
+                <div id="never"><p>Never use an insecure password again.</p></div>
+            </div>
+            <div>
+                <div>
+                    <button id="generate-password" onclick="generatePass()"> <span id="button-text">Generate password</span></button>
+                </div>
+            </div>
+            <div>
+                <div id="line"></div>
+            </div>
+            <div class="password-container">
+                <div class="password-section1">
+                    <span id="password1-el"></span>
+                </div>
+                <div class="password-section2">
+                    <span id="password2-el" ></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+            <label class="switch" onclick="toggleNumber()">
+                <input type="checkbox">
+                <span class="slider round"></span> 
+                
+            </label>
+                <span id="box-text"> Toggle Numbers</span>
+            
+            </div>
+            <div>
+            <label class="switch" onclick="toggleSymbol()">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <span id="box-text"> Toggle Symbols</span>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+

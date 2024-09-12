@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1> The Great Color Selector </h1>
+        <section id="main"> 
+        <div class="container">
+            <div class="select-color">
+                <input id="input-value" type="color">
+                <select id="color-select">
+                    <option value="monochrome">monochrome</option>
+                    <option value="monochrome-dark">monochrome-dark</option>
+                    <option value="monochrome-light">monochrome-light</option>
+                    <option value="analogic">analogic</option>
+                    <option value="complement">complement</option>
+                    <option value="analogic-complement">analogic-complement</option>
+                    <option value="triad">triad</option>
+                </select>
+                <button id="colorBtn">Get Color Scheme</button>
+            </div>
+            <div class="colors"></div>
+        </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
